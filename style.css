@@ -133,7 +133,7 @@ footer ul:first-child {
 }
 
 .clue {
-  opacity: 0.075;
+  opacity: 0.3;
   transition: opacity 0.2s ease-in-out;
 }
 
