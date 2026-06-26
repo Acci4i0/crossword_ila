@@ -7,17 +7,17 @@
 // - nessuna adiacenza laterale tra parole parallele (celle di parole
 //   diverse si toccano solo negli incroci)
 // - griglia connessa
-// - ENGINEERING e LMINDUSTRY orizzontali (sfruttano la larghezza)
+// - BABYSITTING e COMPLAINING orizzontali (sfruttano la larghezza)
 
 const WORDS = [
-  { number: 1, answer: "ANDREA" },
+  { number: 1, answer: "ILARIA" },
   { number: 2, answer: "LANDO" },
-  { number: 3, answer: "ACCIAIO" },
-  { number: 4, answer: "ENGINEERING", forcedDirection: "across" },
-  { number: 5, answer: "COMPLAIN" },
-  { number: 6, answer: "SPORT" },
+  { number: 3, answer: "BISBETICA" },
+  { number: 4, answer: "STUDY" },
+  { number: 5, answer: "BABYSITTING", forcedDirection: "across" },
+  { number: 6, answer: "COSMETICS" },
   { number: 7, answer: "ITALY" },
-  { number: 8, answer: "LMINDUSTRY", forcedDirection: "across" },
+  { number: 8, answer: "COMPLAINING", forcedDirection: "across" },
 ];
 
 const MAX_WIDTH = 19;
@@ -46,7 +46,7 @@ function searchBestLayout() {
   return best;
 
   // A ogni passo prova qualunque parola rimanente: l'ordine di piazzamento
-  // conta (es. LMINDUSTRY orizzontale ha bisogno di una verticale già
+  // conta (es. COMPLAINING orizzontale ha bisogno di una verticale già
   // piazzata), quindi non si può seguire un ordine fisso.
   function extend(remaining, placed) {
     if (remaining.length === 0) {
