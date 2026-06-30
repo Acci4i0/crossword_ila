@@ -3,35 +3,35 @@
 
 // Layout landscape generato e verificato con tools/generate-landscape.js.
 const LAYOUTS = {
-  // Forma 10×12 come la griglia mobile di sa-m.fr (~10×13): riempie la
-  // larghezza (celle = 100vw/10) e resta in portrait. Generato e verificato
+  // Forma 9×10 come la griglia mobile di sa-m.fr (~10×13): riempie la
+  // larghezza (celle = 100vw/9) e resta in portrait. Generato e verificato
   // con tools/generate-portrait.js.
   portrait: {
-    cols: 10,
-    rows: 12,
+    cols: 9,
+    rows: 10,
     words: [
-      { number: 1, answer: "ILARIA", direction: "across", col: 0, row: 2 },
-      { number: 2, answer: "LANDO", direction: "across", col: 0, row: 10 },
-      { number: 3, answer: "BISBETICA", direction: "across", col: 1, row: 6 },
-      { number: 4, answer: "STUDY", direction: "across", col: 1, row: 8 },
-      { number: 5, answer: "BABYSITTING", direction: "down", col: 2, row: 1 },
-      { number: 6, answer: "COSMETICS", direction: "down", col: 7, row: 0 },
-      { number: 7, answer: "ITALY", direction: "down", col: 5, row: 0 },
-      { number: 8, answer: "COMPLAINING", direction: "down", col: 9, row: 1 },
+      { number: 1, answer: "THOMAS", direction: "across", col: 0, row: 4 },
+      { number: 2, answer: "LANDO", direction: "across", col: 4, row: 1 },
+      { number: 3, answer: "PAVESINO", direction: "down", col: 5, row: 0 },
+      { number: 4, answer: "FOOTBALL", direction: "down", col: 2, row: 2 },
+      { number: 5, answer: "PADEL", direction: "down", col: 8, row: 3 },
+      { number: 6, answer: "PARTYING", direction: "down", col: 0, row: 1 },
+      { number: 7, answer: "CLOTHES", direction: "across", col: 1, row: 9 },
+      { number: 8, answer: "NONE", direction: "across", col: 5, row: 6 },
     ],
   },
   landscape: {
-    cols: 15,
-    rows: 8,
+    cols: 16,
+    rows: 6,
     words: [
-      { number: 1, answer: "ILARIA", direction: "down", col: 5, row: 2 },
-      { number: 2, answer: "LANDO", direction: "down", col: 1, row: 0 },
-      { number: 3, answer: "BISBETICA", direction: "across", col: 4, row: 2 },
-      { number: 4, answer: "STUDY", direction: "down", col: 14, row: 0 },
-      { number: 5, answer: "BABYSITTING", direction: "across", col: 0, row: 6 },
-      { number: 6, answer: "COSMETICS", direction: "across", col: 6, row: 0 },
-      { number: 7, answer: "ITALY", direction: "down", col: 12, row: 0 },
-      { number: 8, answer: "COMPLAINING", direction: "across", col: 0, row: 4 },
+      { number: 1, answer: "THOMAS", direction: "down", col: 3, row: 0 },
+      { number: 2, answer: "LANDO", direction: "down", col: 9, row: 0 },
+      { number: 3, answer: "PAVESINO", direction: "across", col: 2, row: 4 },
+      { number: 4, answer: "FOOTBALL", direction: "across", col: 0, row: 0 },
+      { number: 5, answer: "PADEL", direction: "across", col: 11, row: 4 },
+      { number: 6, answer: "PARTYING", direction: "across", col: 8, row: 1 },
+      { number: 7, answer: "CLOTHES", direction: "across", col: 1, row: 2 },
+      { number: 8, answer: "NONE", direction: "down", col: 14, row: 1 },
     ],
   },
 };

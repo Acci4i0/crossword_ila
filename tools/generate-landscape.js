@@ -7,17 +7,17 @@
 // - nessuna adiacenza laterale tra parole parallele (celle di parole
 //   diverse si toccano solo negli incroci)
 // - griglia connessa
-// - BABYSITTING e COMPLAINING orizzontali (sfruttano la larghezza)
+// - PAVESINO, FOOTBALL e PARTYING orizzontali (sfruttano la larghezza)
 
 const WORDS = [
-  { number: 1, answer: "ILARIA" },
+  { number: 1, answer: "THOMAS" },
   { number: 2, answer: "LANDO" },
-  { number: 3, answer: "BISBETICA" },
-  { number: 4, answer: "STUDY" },
-  { number: 5, answer: "BABYSITTING", forcedDirection: "across" },
-  { number: 6, answer: "COSMETICS" },
-  { number: 7, answer: "ITALY" },
-  { number: 8, answer: "COMPLAINING", forcedDirection: "across" },
+  { number: 3, answer: "PAVESINO", forcedDirection: "across" },
+  { number: 4, answer: "FOOTBALL", forcedDirection: "across" },
+  { number: 5, answer: "PADEL" },
+  { number: 6, answer: "PARTYING", forcedDirection: "across" },
+  { number: 7, answer: "CLOTHES" },
+  { number: 8, answer: "NONE" },
 ];
 
 const MAX_WIDTH = 19;
@@ -46,7 +46,7 @@ function searchBestLayout() {
   return best;
 
   // A ogni passo prova qualunque parola rimanente: l'ordine di piazzamento
-  // conta (es. COMPLAINING orizzontale ha bisogno di una verticale già
+  // conta (es. PARTYING orizzontale ha bisogno di una verticale già
   // piazzata), quindi non si può seguire un ordine fisso.
   function extend(remaining, placed) {
     if (remaining.length === 0) {

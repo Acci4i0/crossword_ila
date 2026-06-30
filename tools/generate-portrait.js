@@ -11,18 +11,18 @@
 // - nessuna cella condivisa con lettere diverse
 // - nessuna adiacenza laterale tra parole parallele
 // - griglia connessa
-// - le parole lunghe (BABYSITTING, COMPLAINING) verticali, per sfruttare
+// - le parole lunghe (PAVESINO, FOOTBALL, PARTYING) verticali, per sfruttare
 //   l'altezza e tenere stretta la larghezza
 
 const WORDS = [
-  { number: 1, answer: "ILARIA" },
+  { number: 1, answer: "THOMAS" },
   { number: 2, answer: "LANDO" },
-  { number: 3, answer: "BISBETICA" },
-  { number: 4, answer: "STUDY" },
-  { number: 5, answer: "BABYSITTING", forcedDirection: "down" },
-  { number: 6, answer: "COSMETICS" },
-  { number: 7, answer: "ITALY" },
-  { number: 8, answer: "COMPLAINING", forcedDirection: "down" },
+  { number: 3, answer: "PAVESINO", forcedDirection: "down" },
+  { number: 4, answer: "FOOTBALL", forcedDirection: "down" },
+  { number: 5, answer: "PADEL" },
+  { number: 6, answer: "PARTYING", forcedDirection: "down" },
+  { number: 7, answer: "CLOTHES" },
+  { number: 8, answer: "NONE" },
 ];
 
 const MAX_WIDTH = 10;
