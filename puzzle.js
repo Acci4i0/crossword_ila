@@ -17,27 +17,27 @@
 
 const PUZZLE = {
   // Titolo della scheda del browser.
-  title: "Thomas",
+  title: "Ilaria",
 
   // Gli indizi e le risposte. clue = la domanda mostrata sotto "INFO".
   clues: [
-    { number: 1, clue: "My name",                    answer: "THOMAS" },
-    { number: 2, clue: "My surname",                 answer: "LANDO" },
-    { number: 3, clue: "My brother call me",         answer: "PAVESINO" },
-    { number: 4, clue: "What i mainly play",         answer: "FOOTBALL" },
-    { number: 5, clue: "But i also play",            answer: "PADEL" },
-    { number: 6, clue: "Principal hobbie",           answer: "PARTYING" },
-    { number: 7, clue: "Where i mainly spend money", answer: "CLOTHES" },
-    { number: 8, clue: "What is my talent",          answer: "NONE" },
+    { number: 1, clue: "Il mio nome",                answer: "ILARIA" },
+    { number: 2, clue: "Il mio pregio è essere",     answer: "FEMMINA" },
+    { number: 3, clue: "Cosa studio?",               answer: "FARMACIA" },
+    { number: 4, clue: "Il mio sogno è fare",        answer: "SOLDI" },
+    { number: 5, clue: "La mia passione è la",       answer: "PALLAVOLO" },
+    { number: 6, clue: "Ma anchre la",               answer: "DOLCEVITA" },
+    { number: 7, clue: "Ed i? (sus)",                answer: "BAMBINI" },
+    { number: 8, clue: "Ho un figlio, il mio...",    answer: "GATTO" },
   ],
 
   // Contatti mostrati sotto "CONTACT" (di solito restano questi: sono i tuoi).
   contact: {
-    mail: "lando.andrea04@gmail.com",
-    tel: "+393337216052",            // usato nel link "chiama"
-    telDisplay: "+39(0)3337216052",  // come viene mostrato
-    instagram: "andrelndo",
-    instagramUrl: "https://instagram.com/andrelndo",
+    mail: "lando.ilaria04@gmail.com",
+    tel: "+393337341336",            // usato nel link "chiama"
+    telDisplay: "+39 3337341336",  // come viene mostrato
+    instagram: "ilandolaria",
+    instagramUrl: "https://instagram.com/ilandolaria",
     year: 2026,
   },
 };
